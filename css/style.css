@@ -1,0 +1,38 @@
+body{
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.link button{
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: black;    
+    padding: 1vh 0.5vh;
+    color: white;
+
+
+}
+.link:hover{
+    background-color: rgb(24, 97, 49);
+    color: white;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+header{
+    animation: opasiti 2s ;
+}
+#konten-dinamis{
+    animation: opasiti 3s ;
+}
+#footer{
+    animation: opasiti 4s ;
+}
+@keyframes opasiti {
+    0% { opacity: 0; margin-right: 30%; }
+    100% {opacity: 1;  margin-right: 0; }
+  }
+  
